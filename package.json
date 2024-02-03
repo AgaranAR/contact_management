@@ -1,0 +1,28 @@
+{
+  "name": "contacts-api",
+  "version": "1.0.0",
+  "description": "backend api for contact management aoo",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node index.js",
+     "dev":"nodemon index.js"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgaranAR/contact_management.git"
+  },
+  "author": "Agaran.A.R",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgaranAR/contact_management/issues"
+  },
+  "homepage": "https://github.com/AgaranAR/contact_management#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  }
+}
